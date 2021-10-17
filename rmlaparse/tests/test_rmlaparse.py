@@ -8,7 +8,7 @@ def test_version():
 
 
 # create a fixture with an instance of ApacheParse
-@pytest.mark.fixture
+@pytest.fixture
 def apache_parser():
     return ApacheParse(
         '/Users/reuven/Courses/Current/lerner-2021-10oct-17/rmlaparse/tests/access.log.1')

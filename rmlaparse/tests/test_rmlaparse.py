@@ -7,9 +7,14 @@ def test_version():
     assert __version__ == '0.1.0'
 
 
-def test_create_instance():
-    ap = ApacheParse(
+# create a fixture with an instance of ApacheParse
+@pytest.mark.fixture
+def apache_parser():
+    return ApacheParse(
         '/Users/reuven/Courses/Current/lerner-2021-10oct-17/rmlaparse/tests/access.log.1')
+
+
+def test_create_instance():
     assert isinstance(ap, ApacheParse)
 
     # should get back a generator

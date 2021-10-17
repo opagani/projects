@@ -27,4 +27,5 @@ def test_parse_file_returns_list_of_strings():
     assert all(isinstance(one_result, list)
                for one_result in results)
 
-    one_result = 
+    first_result = results[0]
+    assert all(isinstance(first_result, str

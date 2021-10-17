@@ -20,7 +20,6 @@ def test_create_instance():
 def test_parse_file_returns_list_of_strings():
     ap = ApacheParse(
         '/Users/reuven/Courses/Current/lerner-2021-10oct-17/rmlaparse/tests/access.log.1')
-    assert isinstance(ap, ApacheParse)
 
     all_records = list(ap.parse_file())
 

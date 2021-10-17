@@ -42,4 +42,6 @@ def test_parse_file_returns_list_of_strings(apache_parser):
 def test_parse_dicts(apache_parser):
     ap = apache_parser
 
-    all_re
+    all_records = list(ap.record_dicts())
+
+    

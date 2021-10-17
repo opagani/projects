@@ -1,4 +1,4 @@
-import aparser
+from rmlaparse import aparser
 
 
 def run():

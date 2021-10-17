@@ -26,6 +26,8 @@ def test_create_instance(apache_parser):
 
 def test_parse_file_returns_list_of_strings(apache_parser):
     ap = apache_parser
+
+    # get a list from the generator that ap.parse_file() returns
     all_records = list(ap.parse_file())
 
     # are all of the returned values in all_records lists?
@@ -36,3 +38,11 @@ def test_parse_file_returns_list_of_strings(apache_parser):
     first_record = all_records[0]
     assert all(isinstance(one_field, str)
                for one_field in first_record)
+
+
+def test_parse_dicts(apache_parser):
+    ap = apache_parser
+
+    all_records = list(ap.record_dicts())
+    assert all(isinstance(one_record, dict)
+               for one_record in all_records)

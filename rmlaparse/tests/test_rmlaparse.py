@@ -28,6 +28,7 @@ def test_parse_file_returns_list_of_strings(apache_parser):
     ap = apache_parser
     all_records = list(ap.parse_file())
 
+    # are all of the returned values in all_records lists?
     assert all(isinstance(one_record, list)
                for one_record in all_records)
 

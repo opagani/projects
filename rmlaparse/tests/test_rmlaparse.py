@@ -4,7 +4,7 @@ from rmlaparse.aparser import ApacheParse
 
 
 def test_version():
-    assert __version__ == '0.2.0'
+    assert __version__ == '0.3.0'
 
 
 # create a fixture with an instance of ApacheParse

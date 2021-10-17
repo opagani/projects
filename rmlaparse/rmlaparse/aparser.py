@@ -6,6 +6,6 @@ class ApacheParse:
         self.f = open(filename)
 
     def parse_file(self):
-        r = csv.reader(self.f)
+        r = csv.reader(self.f, delimiter=' ')
         for one_line in r:
             yield one_line

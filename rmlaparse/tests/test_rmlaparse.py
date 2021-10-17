@@ -8,5 +8,4 @@ def test_version():
 
 def test_create_instance():
     ap = ApacheParse('/etc/passwd')
-    # assert isinstance(ap, ApacheParse)
-    assert 2 == 3
+    assert isinstance(ap, ApacheParse)

@@ -22,11 +22,11 @@ def test_parse_file_returns_list_of_strings():
         '/Users/reuven/Courses/Current/lerner-2021-10oct-17/rmlaparse/tests/access.log.1')
     assert isinstance(ap, ApacheParse)
 
-    results = list(ap.parse_file())
+    all_records = list(ap.parse_file())
 
-    assert all(isinstance(one_result, list)
-               for one_result in results)
+    assert all(isinstance(one_record, list)
+               for one_record in all_records)
 
-    first_result = results[0]
+    first_record = all_records[0]
     assert all(isinstance(one_field, str)
-               for one_field in first_result)
+               for one_field in first_record)

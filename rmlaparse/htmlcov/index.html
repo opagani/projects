@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="icon" sizes="32x32" href="favicon_32.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">18%</span>
+        </h1>
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+<div id="index">
+    <table class="index">
+        <thead>
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>16333</td>
+                <td>13388</td>
+                <td>44</td>
+                <td class="right" data-ratio="2945 16333">18%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="file">
+                <td class="name left"><a href="d_e989f55593ec13de___init___py.html">rmlaparse/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_e989f55593ec13de_aparser_py.html">rmlaparse/aparser.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 8">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531___init___py.html">tests/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_rmlaparse_py.html">tests/test_rmlaparse.py</a></td>
+                <td>20</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="17 20">85%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958__argcomplete_py.html">/usr/local/lib/python3.10/site-packages/_pytest/_argcomplete.py</a></td>
+                <td>37</td>
+                <td>36</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 37">3%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_79d23107ad87dca8_code_py.html">/usr/local/lib/python3.10/site-packages/_pytest/_code/code.py</a></td>
+                <td>699</td>
+                <td>686</td>
+                <td>0</td>
+                <td class="right" data-ratio="13 699">2%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_79d23107ad87dca8_source_py.html">/usr/local/lib/python3.10/site-packages/_pytest/_code/source.py</a></td>
+                <td>142</td>
+                <td>140</td>
+                <td>0</td>
+                <td class="right" data-ratio="2 142">1%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_0608e4517850b5e1_terminalwriter_py.html">/usr/local/lib/python3.10/site-packages/_pytest/_io/terminalwriter.py</a></td>
+                <td>113</td>
+                <td>74</td>
+                <td>0</td>
+                <td class="right" data-ratio="39 113">35%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_0608e4517850b5e1_wcwidth_py.html">/usr/local/lib/python3.10/site-packages/_pytest/_io/wcwidth.py</a></td>
+                <td>25</td>
+                <td>22</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 25">12%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_d99f0c1504746317___init___py.html">/usr/local/lib/python3.10/site-packages/_pytest/assertion/__init__.py</a></td>
+                <td>84</td>
+                <td>73</td>
+                <td>0</td>
+                <td class="right" data-ratio="11 84">13%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_d99f0c1504746317_rewrite_py.html">/usr/local/lib/python3.10/site-packages/_pytest/assertion/rewrite.py</a></td>
+                <td>626</td>
+                <td>535</td>
+                <td>0</td>
+                <td class="right" data-ratio="91 626">15%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_cacheprovider_py.html">/usr/local/lib/python3.10/site-packages/_pytest/cacheprovider.py</a></td>
+                <td>314</td>
+                <td>266</td>
+                <td>0</td>
+                <td class="right" data-ratio="48 314">15%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_capture_py.html">/usr/local/lib/python3.10/site-packages/_pytest/capture.py</a></td>
+                <td>560</td>
+                <td>481</td>
+                <td>0</td>
+                <td class="right" data-ratio="79 560">14%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_compat_py.html">/usr/local/lib/python3.10/site-packages/_pytest/compat.py</a></td>
+                <td>162</td>
+                <td>128</td>
+                <td>2</td>
+                <td class="right" data-ratio="34 162">21%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_68dd1c56b9504695___init___py.html">/usr/local/lib/python3.10/site-packages/_pytest/config/__init__.py</a></td>
+                <td>806</td>
+                <td>688</td>
+                <td>0</td>
+                <td class="right" data-ratio="118 806">15%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_68dd1c56b9504695_argparsing_py.html">/usr/local/lib/python3.10/site-packages/_pytest/config/argparsing.py</a></td>
+                <td>253</td>
+                <td>208</td>
+                <td>31</td>
+                <td class="right" data-ratio="45 253">18%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_debugging_py.html">/usr/local/lib/python3.10/site-packages/_pytest/debugging.py</a></td>
+                <td>228</td>
+                <td>219</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 228">4%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_deprecated_py.html">/usr/local/lib/python3.10/site-packages/_pytest/deprecated.py</a></td>
+                <td>16</td>
+                <td>15</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 16">6%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_doctest_py.html">/usr/local/lib/python3.10/site-packages/_pytest/doctest.py</a></td>
+                <td>351</td>
+                <td>341</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 351">3%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_faulthandler_py.html">/usr/local/lib/python3.10/site-packages/_pytest/faulthandler.py</a></td>
+                <td>64</td>
+                <td>48</td>
+                <td>0</td>
+                <td class="right" data-ratio="16 64">25%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_fixtures_py.html">/usr/local/lib/python3.10/site-packages/_pytest/fixtures.py</a></td>
+                <td>833</td>
+                <td>465</td>
+                <td>0</td>
+                <td class="right" data-ratio="368 833">44%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_helpconfig_py.html">/usr/local/lib/python3.10/site-packages/_pytest/helpconfig.py</a></td>
+                <td>133</td>
+                <td>123</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 133">8%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_junitxml_py.html">/usr/local/lib/python3.10/site-packages/_pytest/junitxml.py</a></td>
+                <td>373</td>
+                <td>371</td>
+                <td>0</td>
+                <td class="right" data-ratio="2 373">1%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_logging_py.html">/usr/local/lib/python3.10/site-packages/_pytest/logging.py</a></td>
+                <td>402</td>
+                <td>294</td>
+                <td>0</td>
+                <td class="right" data-ratio="108 402">27%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_main_py.html">/usr/local/lib/python3.10/site-packages/_pytest/main.py</a></td>
+                <td>461</td>
+                <td>292</td>
+                <td>0</td>
+                <td class="right" data-ratio="169 461">37%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_390cd166fc4d47b5___init___py.html">/usr/local/lib/python3.10/site-packages/_pytest/mark/__init__.py</a></td>
+                <td>141</td>
+                <td>126</td>
+                <td>0</td>
+                <td class="right" data-ratio="15 141">11%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_390cd166fc4d47b5_structures_py.html">/usr/local/lib/python3.10/site-packages/_pytest/mark/structures.py</a></td>
+                <td>244</td>
+                <td>227</td>
+                <td>0</td>
+                <td class="right" data-ratio="17 244">7%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_monkeypatch_py.html">/usr/local/lib/python3.10/site-packages/_pytest/monkeypatch.py</a></td>
+                <td>171</td>
+                <td>149</td>
+                <td>0</td>
+                <td class="right" data-ratio="22 171">13%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_nodes_py.html">/usr/local/lib/python3.10/site-packages/_pytest/nodes.py</a></td>
+                <td>271</td>
+                <td>188</td>
+                <td>0</td>
+                <td class="right" data-ratio="83 271">31%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_nose_py.html">/usr/local/lib/python3.10/site-packages/_pytest/nose.py</a></td>
+                <td>22</td>
+                <td>11</td>
+                <td>0</td>
+                <td class="right" data-ratio="11 22">50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_pastebin_py.html">/usr/local/lib/python3.10/site-packages/_pytest/pastebin.py</a></td>
+                <td>70</td>
+                <td>69</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 70">1%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_pathlib_py.html">/usr/local/lib/python3.10/site-packages/_pytest/pathlib.py</a></td>
+                <td>338</td>
+                <td>270</td>
+                <td>0</td>
+                <td class="right" data-ratio="68 338">20%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_python_py.html">/usr/local/lib/python3.10/site-packages/_pytest/python.py</a></td>
+                <td>851</td>
+                <td>647</td>
+                <td>2</td>
+                <td class="right" data-ratio="204 851">24%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_reports_py.html">/usr/local/lib/python3.10/site-packages/_pytest/reports.py</a></td>
+                <td>279</td>
+                <td>247</td>
+                <td>0</td>
+                <td class="right" data-ratio="32 279">11%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_runner_py.html">/usr/local/lib/python3.10/site-packages/_pytest/runner.py</a></td>
+                <td>299</td>
+                <td>177</td>
+                <td>0</td>
+                <td class="right" data-ratio="122 299">41%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_setuponly_py.html">/usr/local/lib/python3.10/site-packages/_pytest/setuponly.py</a></td>
+                <td>56</td>
+                <td>49</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 56">12%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_setupplan_py.html">/usr/local/lib/python3.10/site-packages/_pytest/setupplan.py</a></td>
+                <td>24</td>
+                <td>20</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 24">17%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_skipping_py.html">/usr/local/lib/python3.10/site-packages/_pytest/skipping.py</a></td>
+                <td>178</td>
+                <td>148</td>
+                <td>0</td>
+                <td class="right" data-ratio="30 178">17%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_stepwise_py.html">/usr/local/lib/python3.10/site-packages/_pytest/stepwise.py</a></td>
+                <td>68</td>
+                <td>67</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 68">1%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_store_py.html">/usr/local/lib/python3.10/site-packages/_pytest/store.py</a></td>
+                <td>34</td>
+                <td>27</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 34">21%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_terminal_py.html">/usr/local/lib/python3.10/site-packages/_pytest/terminal.py</a></td>
+                <td>897</td>
+                <td>803</td>
+                <td>0</td>
+                <td class="right" data-ratio="94 897">10%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_threadexception_py.html">/usr/local/lib/python3.10/site-packages/_pytest/threadexception.py</a></td>
+                <td>44</td>
+                <td>29</td>
+                <td>0</td>
+                <td class="right" data-ratio="15 44">34%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_tmpdir_py.html">/usr/local/lib/python3.10/site-packages/_pytest/tmpdir.py</a></td>
+                <td>117</td>
+                <td>102</td>
+                <td>0</td>
+                <td class="right" data-ratio="15 117">13%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_unittest_py.html">/usr/local/lib/python3.10/site-packages/_pytest/unittest.py</a></td>
+                <td>243</td>
+                <td>232</td>
+                <td>0</td>
+                <td class="right" data-ratio="11 243">5%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_unraisableexception_py.html">/usr/local/lib/python3.10/site-packages/_pytest/unraisableexception.py</a></td>
+                <td>44</td>
+                <td>29</td>
+                <td>0</td>
+                <td class="right" data-ratio="15 44">34%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_641edb68f39a7958_warnings_py.html">/usr/local/lib/python3.10/site-packages/_pytest/warnings.py</a></td>
+                <td>63</td>
+                <td>43</td>
+                <td>0</td>
+                <td class="right" data-ratio="20 63">32%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9f6ffb3b83616823_pytest_plugin_py.html">/usr/local/lib/python3.10/site-packages/anyio/pytest_plugin.py</a></td>
+                <td>106</td>
+                <td>95</td>
+                <td>0</td>
+                <td class="right" data-ratio="11 106">10%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_973a75d63772e54e_plugin_py.html">/usr/local/lib/python3.10/site-packages/faker/contrib/pytest/plugin.py</a></td>
+                <td>22</td>
+                <td>19</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 22">14%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_b81713d5b4aeac34_factory_py.html">/usr/local/lib/python3.10/site-packages/faker/factory.py</a></td>
+                <td>68</td>
+                <td>31</td>
+                <td>0</td>
+                <td class="right" data-ratio="37 68">54%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_b81713d5b4aeac34_generator_py.html">/usr/local/lib/python3.10/site-packages/faker/generator.py</a></td>
+                <td>88</td>
+                <td>76</td>
+                <td>0</td>
+                <td class="right" data-ratio="12 88">14%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_65cceba7632db285___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/__init__.py</a></td>
+                <td>105</td>
+                <td>104</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 105">1%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a4f15c945b881275___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/address/en/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_ef12fd5f9098566b___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/address/en_US/__init__.py</a></td>
+                <td>65</td>
+                <td>25</td>
+                <td>0</td>
+                <td class="right" data-ratio="40 65">62%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_d1e0720de02a9f38___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/automotive/en_US/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a22b665dbe1409a0___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/bank/en_GB/__init__.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_4c9d3d6a1f01afac___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/barcode/en_US/__init__.py</a></td>
+                <td>63</td>
+                <td>49</td>
+                <td>0</td>
+                <td class="right" data-ratio="14 63">22%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_4943f17bf27f1623___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/color/en_US/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_ae343da69bf9f29d___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/company/en_US/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_d9b7ab2768bc8053___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/credit_card/en_US/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_ecd8d6010bbc6127___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/currency/en_US/__init__.py</a></td>
+                <td>5</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 5">80%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_d4c75b431fbaa72c___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/date_time/en_US/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_4425ae1804c6d5ba___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/geo/en_US/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_16e4f989b35d0551___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/internet/en_US/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_2f9b277da83d930f___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/job/en_US/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_3d5a793866600b9f___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/lorem/en_US/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_eabec9b844d65484___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/misc/en_US/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_d0a8ecc6582e1a0c___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/person/en_US/__init__.py</a></td>
+                <td>21</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="21 21">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_629c2d34ea518bba___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/phone_number/en_US/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_458a5d4957e6a7da___init___py.html">/usr/local/lib/python3.10/site-packages/faker/providers/ssn/en_US/__init__.py</a></td>
+                <td>51</td>
+                <td>41</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 51">20%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_b81713d5b4aeac34_proxy_py.html">/usr/local/lib/python3.10/site-packages/faker/proxy.py</a></td>
+                <td>164</td>
+                <td>144</td>
+                <td>0</td>
+                <td class="right" data-ratio="20 164">12%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_4d1b468f9ff353e8_loading_py.html">/usr/local/lib/python3.10/site-packages/faker/utils/loading.py</a></td>
+                <td>35</td>
+                <td>29</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 35">17%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9e0a84aa022872b7__settings_py.html">/usr/local/lib/python3.10/site-packages/hypothesis/_settings.py</a></td>
+                <td>267</td>
+                <td>259</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 267">3%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_085f1dfc45455435_pytestplugin_py.html">/usr/local/lib/python3.10/site-packages/hypothesis/extra/pytestplugin.py</a></td>
+                <td>137</td>
+                <td>114</td>
+                <td>7</td>
+                <td class="right" data-ratio="23 137">17%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_b4c8f935e87ac733_detection_py.html">/usr/local/lib/python3.10/site-packages/hypothesis/internal/detection.py</a></td>
+                <td>5</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="2 5">40%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_266ae2589529e394_dynamicvariables_py.html">/usr/local/lib/python3.10/site-packages/hypothesis/utils/dynamicvariables.py</a></td>
+                <td>19</td>
+                <td>18</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 19">5%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_fb5c9ffc959bed04__callers_py.html">/usr/local/lib/python3.10/site-packages/pluggy/_callers.py</a></td>
+                <td>40</td>
+                <td>12</td>
+                <td>0</td>
+                <td class="right" data-ratio="28 40">70%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_fb5c9ffc959bed04__hooks_py.html">/usr/local/lib/python3.10/site-packages/pluggy/_hooks.py</a></td>
+                <td>156</td>
+                <td>85</td>
+                <td>0</td>
+                <td class="right" data-ratio="71 156">46%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_fb5c9ffc959bed04__manager_py.html">/usr/local/lib/python3.10/site-packages/pluggy/_manager.py</a></td>
+                <td>190</td>
+                <td>135</td>
+                <td>0</td>
+                <td class="right" data-ratio="55 190">29%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_fb5c9ffc959bed04__result_py.html">/usr/local/lib/python3.10/site-packages/pluggy/_result.py</a></td>
+                <td>30</td>
+                <td>24</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 30">20%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_fb5c9ffc959bed04__tracing_py.html">/usr/local/lib/python3.10/site-packages/pluggy/_tracing.py</a></td>
+                <td>41</td>
+                <td>31</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 41">24%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_d61591cf3a703718__builtin_py.html">/usr/local/lib/python3.10/site-packages/py/_builtin.py</a></td>
+                <td>112</td>
+                <td>78</td>
+                <td>0</td>
+                <td class="right" data-ratio="34 112">30%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_036c2ceebfb9c62e___init___py.html">/usr/local/lib/python3.10/site-packages/py/_code/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_036c2ceebfb9c62e_code_py.html">/usr/local/lib/python3.10/site-packages/py/_code/code.py</a></td>
+                <td>531</td>
+                <td>408</td>
+                <td>0</td>
+                <td class="right" data-ratio="123 531">23%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_d61591cf3a703718__error_py.html">/usr/local/lib/python3.10/site-packages/py/_error.py</a></td>
+                <td>52</td>
+                <td>49</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 52">6%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_6cdc54ca8233317b_common_py.html">/usr/local/lib/python3.10/site-packages/py/_path/common.py</a></td>
+                <td>277</td>
+                <td>228</td>
+                <td>0</td>
+                <td class="right" data-ratio="49 277">18%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_6cdc54ca8233317b_local_py.html">/usr/local/lib/python3.10/site-packages/py/_path/local.py</a></td>
+                <td>694</td>
+                <td>620</td>
+                <td>0</td>
+                <td class="right" data-ratio="74 694">11%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_d61591cf3a703718__std_py.html">/usr/local/lib/python3.10/site-packages/py/_std.py</a></td>
+                <td>15</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 15">60%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_89536b05b226d8e8___init___py.html">/usr/local/lib/python3.10/site-packages/py/_vendored_packages/apipkg/__init__.py</a></td>
+                <td>152</td>
+                <td>133</td>
+                <td>0</td>
+                <td class="right" data-ratio="19 152">12%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_00de0bfef0c0bfbc_pytest_py.html">/usr/local/lib/python3.10/site-packages/pylama/pytest.py</a></td>
+                <td>56</td>
+                <td>51</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 56">9%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9491e7f969f22f29_compat_py.html">/usr/local/lib/python3.10/site-packages/pytest_cov/compat.py</a></td>
+                <td>21</td>
+                <td>17</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 21">19%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9491e7f969f22f29_embed_py.html">/usr/local/lib/python3.10/site-packages/pytest_cov/embed.py</a></td>
+                <td>80</td>
+                <td>74</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 80">8%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9491e7f969f22f29_engine_py.html">/usr/local/lib/python3.10/site-packages/pytest_cov/engine.py</a></td>
+                <td>238</td>
+                <td>217</td>
+                <td>0</td>
+                <td class="right" data-ratio="21 238">9%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_9491e7f969f22f29_plugin_py.html">/usr/local/lib/python3.10/site-packages/pytest_cov/plugin.py</a></td>
+                <td>219</td>
+                <td>201</td>
+                <td>0</td>
+                <td class="right" data-ratio="18 219">8%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_c35bd1b3380eb54e__internal_py.html">/usr/local/lib/python3.10/site-packages/pytest_flask/_internal.py</a></td>
+                <td>21</td>
+                <td>20</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 21">5%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_c35bd1b3380eb54e_plugin_py.html">/usr/local/lib/python3.10/site-packages/pytest_flask/plugin.py</a></td>
+                <td>69</td>
+                <td>61</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 69">12%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_65947c6f6ba8009a_pytest_sugar_py.html">/usr/local/lib/python3.10/site-packages/pytest_sugar.py</a></td>
+                <td>350</td>
+                <td>210</td>
+                <td>2</td>
+                <td class="right" data-ratio="140 350">40%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_65947c6f6ba8009a_six_py.html">/usr/local/lib/python3.10/site-packages/six.py</a></td>
+                <td>504</td>
+                <td>502</td>
+                <td>0</td>
+                <td class="right" data-ratio="2 504">1%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_65947c6f6ba8009a_termcolor_py.html">/usr/local/lib/python3.10/site-packages/termcolor.py</a></td>
+                <td>59</td>
+                <td>50</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 59">15%</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v6.0</a>,
+            created at 2021-10-17 20:36 +0300
+        </p>
+    </div>
+</div>
+</body>
+</html>

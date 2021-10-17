@@ -14,7 +14,7 @@ def apache_parser():
         '/Users/reuven/Courses/Current/lerner-2021-10oct-17/rmlaparse/tests/access.log.1')
 
 
-def test_create_instance():
+def test_create_instance(apache_parser):
     assert isinstance(ap, ApacheParse)
 
     # should get back a generator

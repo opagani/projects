@@ -1,5 +1,5 @@
-from rmlparse.aparser import ApacheParse
-from rmlparse import __version__
+from rmlaparse.aparser import ApacheParse
+from rmlaparse import __version__
 import pytest
 
 

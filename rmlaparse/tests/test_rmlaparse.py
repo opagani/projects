@@ -17,5 +17,10 @@ def test_create_instance():
     assert hasattr(g, '__next__')
 
 
-def test_whatever():
-    assert True == True
+def test_parse_file_returns_list_of_strings():
+    ap = ApacheParse(
+        '/Users/reuven/Courses/Current/lerner-2021-10oct-17/rmlaparse/tests/access.log.1')
+    assert isinstance(ap, ApacheParse)
+
+    # should get back a generator
+    g = ap.parse_file()

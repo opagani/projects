@@ -24,10 +24,8 @@ def test_create_instance(apache_parser):
     assert hasattr(g, '__next__')
 
 
-def test_parse_file_returns_list_of_strings():
-    ap = ApacheParse(
-        '/Users/reuven/Courses/Current/lerner-2021-10oct-17/rmlaparse/tests/access.log.1')
-
+def test_parse_file_returns_list_of_strings(apache_parser):
+    ap = apache_parser
     all_records = list(ap.parse_file())
 
     assert all(isinstance(one_record, list)

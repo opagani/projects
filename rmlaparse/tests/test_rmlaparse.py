@@ -1,3 +1,4 @@
+import pytest
 from rmlaparse import __version__
 from rmlaparse.aparser import ApacheParse
 

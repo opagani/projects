@@ -32,6 +32,7 @@ def test_parse_file_returns_list_of_strings(apache_parser):
     assert all(isinstance(one_record, list)
                for one_record in all_records)
 
+    # are all of the fields in our first record (and presumably all of them) strings?
     first_record = all_records[0]
     assert all(isinstance(one_field, str)
                for one_field in first_record)

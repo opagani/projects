@@ -40,4 +40,6 @@ def test_parse_file_returns_list_of_strings(apache_parser):
                for one_field in first_record)
 
 def test_parse_dicts(apache_parser):
-    ap =
+    ap = apache_parser
+
+    all_re

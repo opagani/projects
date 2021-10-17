@@ -7,5 +7,6 @@ def test_version():
 
 
 def test_create_instance():
-    ap = ApacheParse('/etc/passwd')
+    ap = ApacheParse(
+        '/Users/reuven/Courses/Current/lerner-2021-10oct-17/rmlaparse/tests/access.log.1')
     assert isinstance(ap, ApacheParse)

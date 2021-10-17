@@ -15,6 +15,7 @@ def apache_parser():
 
 
 def test_create_instance(apache_parser):
+    ap = apache_parser
     assert isinstance(ap, ApacheParse)
 
     # should get back a generator

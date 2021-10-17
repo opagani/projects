@@ -15,3 +15,7 @@ def test_create_instance():
     g = ap.parse_file()
     assert hasattr(g, '__iter__')
     assert hasattr(g, '__next__')
+
+
+def test_whatever():
+    assert True == True
